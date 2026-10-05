@@ -1,0 +1,24 @@
+# env
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# large / third-party
+third_party/
+models/*.task
+data/raw/
+outputs/
+*.mov
+*.mp4
+
+# secrets
+*.pem
+credentials*
+aws/*.local.json
+
+# local working files (not part of the submission)
+docs/
+.pytest_cache/
+scripts/make_video.py

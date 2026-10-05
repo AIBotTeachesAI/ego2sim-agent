@@ -1,0 +1,12 @@
+.venv
+third_party
+data
+outputs
+docs
+tests
+scripts
+.env
+.git
+**/__pycache__
+*.mov
+*.mp4

@@ -1,0 +1,16 @@
+scenario,method,handled_correctly,success,unsafe_moves,avg_fixes,human_asks,avg_final_error_cm
+clean,none,0/10,0/10,0,0.0,0,10.22
+clean,baseline,10/10,10/10,0,1.0,0,0.59
+clean,llm,10/10,10/10,0,1.1,0,0.67
+occluded,none,0/10,0/10,0,0.0,0,9.94
+occluded,baseline,0/10,0/10,30,3.0,0,1.0
+occluded,llm,10/10,10/10,0,1.0,10,0.59
+obstructed,none,0/10,0/10,0,0.0,0,10.22
+obstructed,baseline,0/10,10/10,10,1.0,0,0.59
+obstructed,llm,10/10,10/10,0,1.0,10,0.59
+slip,none,0/10,0/10,0,0.0,0,10.22
+slip,baseline,0/10,0/10,0,3.0,0,3.93
+slip,llm,10/10,0/10,0,3.6,20,4.01
+slip_repair,none,0/10,0/10,0,0.0,0,10.22
+slip_repair,baseline,0/10,0/10,0,3.0,0,3.93
+slip_repair,llm,10/10,10/10,0,3.6,17,0.69

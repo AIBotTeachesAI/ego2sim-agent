@@ -1,0 +1,15 @@
+{
+  "video": "take01.mp4",
+  "resolution": [1920, 1080],
+  "corner_order": ["near-left", "near-right", "far-right", "far-left"],
+  "image_points": [[199.0, 952.0], [1879.0, 970.0], [1852.0, 179.0], [272.0, 158.0]],
+  "table_points": [[0, 0], [1, 0], [1, 1], [0, 1]],
+  "units": "normalized_table",
+  "cup_hsv": {
+    "ranges": [
+      {"lower": [0, 120, 70],   "upper": [10, 255, 255]},
+      {"lower": [170, 120, 70], "upper": [180, 255, 255]}
+    ],
+    "min_area_px": 200
+  }
+}
