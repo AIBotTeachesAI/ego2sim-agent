@@ -9,6 +9,8 @@ Film yourself moving a cup with a phone. Ego2Sim tracks the hand and cup, maps t
 
 Built for the OpenCV AI Competition 2026 (powered by AWS), including the Agentic Vision path.
 
+![Phone video, OpenCV 5 tracking, and the Franka Panda replay](assets/ego2sim_demo.gif)
+
 ## What it does
 
 **Part 1, Ego2Sim (phone video to robot)**
@@ -28,9 +30,11 @@ The OpenCV measurement changes the next action in every loop, and every step is 
 
 ## Architecture
 
-![Architecture](assets/architecture.png)
+![Part 1: Ego2Sim flow](assets/ego2sim_flow.png)
 
-![Agent workflow](assets/agent_workflow.png)
+![Part 2: agent workflow](assets/agent_workflow.png)
+
+![Architecture](assets/architecture.png)
 
 | Component | Role |
 |---|---|

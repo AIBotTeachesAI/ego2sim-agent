@@ -95,6 +95,8 @@ The system prompt states the rules in plain language: accept when the reading is
 
 ### 6.1 Sample trace
 
+![Case 2: an object is in the way, the robot asks a human, then finishes](assets/agent_case2.gif)
+
 From `assets/evidence/sample_trace_obstructed.jsonl` (seed 3, an unexpected object on the table):
 
 | Check | OpenCV measurement | Claude's tool and reason | What happened |
