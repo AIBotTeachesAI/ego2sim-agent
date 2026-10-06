@@ -84,6 +84,8 @@ curl -L -o models/hand_landmarker.task \
 
 Input: a phone video `data/raw/<take>.mov` and a calibration file `data/calibration/<take>.json` (four table corners in pixels, the matching table coordinates, and the cup's HSV ranges).
 
+The recorded take used for the results, `data/raw/take01.mp4`, is included and already normalized, so for `take01` you can skip the first command.
+
 ```bash
 python scripts/prepare_video.py --take take01     # normalize phone video to 8-bit H.264 .mp4
 python scripts/run_pipeline.py --take take01      # vision -> trajectory -> MuJoCo replay -> 3-panel video
